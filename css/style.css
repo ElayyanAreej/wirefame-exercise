@@ -13,10 +13,17 @@
   }
   header img{
     float :none;
-    display: inline-block;}
+    display: inline-block;
+    left: -25.5%;
+    position:relative; 
+
+}
   header nav {
     float:none;
    display: inline-block;
+   position: absolute;
+   right: 18%;
+   top: 43.5%;
    /* margin-bottom: 50px; */
   }
 
@@ -29,38 +36,35 @@
       #num1{
           width:90%;
           margin-left: 5%;
-          background-color: chartreuse;
+          /* background-color: chartreuse; */
           text-align: center;
       }
       #num2{
         width:90%;
         margin-left: 5%;
-        background-color: rgb(76, 0, 255);
+        /* background-color: rgb(76, 0, 255); */
         text-align: center;
     }
     #num2 img{
-   padding:2%;
+   padding:1%;
     }
 
  #num3{
         width:90%;
         margin-left: 5%;
-        background-color: rgb(230, 28, 162);
+        /* background-color: rgb(230, 28, 162); */
         text-align: center;
         position: relative;
     }
 
  #num3 img{
-        float:none; 
-         display: inline-block;
-        padding:2%;
+        display: inline-block;
+        padding:1%;
         width: 40%;
-        top: 28.5px;
-        left: 5%;
-        /* position:absolute;  */
-       top: 28.5px;
-       right: 45%;
+        left: -20.5%;
+        position:relative; 
          }
+         
 #num3 div{
     /* margin-bottom: 0px; */
     text-align: left;
@@ -68,10 +72,10 @@
     display: inline-block;
     padding:2%;
     width:40%;
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
     position: absolute;
     top: 25.5px;
-    right: 5%;
+    right: 9%;
    
     /* margin-bottom: 2%; */
   }
@@ -84,7 +88,7 @@ overflow:auto;
 text-align: justify;
 height: 252px;
 margin-bottom: 2%;
-background-color: darkgreen;
+/* background-color: darkgreen; */
 }
 button{
     width: 65%;
